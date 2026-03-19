@@ -71,12 +71,12 @@ smart-task-manager
 
 ### ⚙️ Installation & Setup
 
-### 🔧 Backend Setup
+## 🔧 Backend Setup
 
 ```bash
 cd backend
 npm install
-node server.js
+node server.js```
 
 
 ###📱 Mobile App Setup
