@@ -61,11 +61,11 @@ smart-task-manager
 │ └── package.json
 │
 └── mobile-app
-├── app
-├── assets
-├── constants
-├── package.json
-└── app.json
+  ├── app
+  ├── assets
+  ├── constants
+  ├── package.json
+  └── app.json
 ```
 
 ---
