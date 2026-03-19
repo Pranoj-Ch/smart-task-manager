@@ -69,34 +69,35 @@ smart-task-manager
 
 ---
 
-### ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
-## 🔧 Backend Setup
+### 🔧 Backend Setup
 
 ```bash
 cd backend
 npm install
-node server.js```
+node server.js
+```
 
 
 ###📱 Mobile App Setup
-cd mobile-app
+```cd mobile-app
 npm install
 npm start
-
+```
 
 ---
 
-### 🔑 Environment Variables
+## 🔑 Environment Variables
 
-Create a .env file inside the backend folder:
+###Create a .env file inside the backend folder:
 
-MONGO_URI=mongodb://localhost:27017/taskmanager
+```MONGO_URI=mongodb://localhost:27017/taskmanager
 PORT=5000
-
+```
 ---
 
-## 📱 How to Use
+### 📱 How to Use
 
 Register a new account
 
