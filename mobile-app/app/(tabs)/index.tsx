@@ -54,7 +54,7 @@ export default function HomeScreen() {
     try {
       const token = await AsyncStorage.getItem("token");
 
-      const response = await fetch("http://192.168.1.19:5000/api/tasks", {
+      const response = await fetch("https://smart-task-manager-2jx1.onrender.com/api/tasks", {
         headers: {
           Authorization: token || "",
         },
@@ -81,7 +81,7 @@ export default function HomeScreen() {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch("http://192.168.1.19:5000/api/auth/login", {
+      const response = await fetch("https://smart-task-manager-2jx1.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -151,7 +151,7 @@ export default function HomeScreen() {
         return;
       }
 
-      const response = await fetch("http://192.168.1.19:5000/api/auth/register", {
+      const response = await fetch("https://smart-task-manager-2jx1.onrender.com/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -222,7 +222,7 @@ export default function HomeScreen() {
 
       const token = await AsyncStorage.getItem("token");
 
-      const response = await fetch("http://192.168.1.19:5000/api/tasks", {
+      const response = await fetch("https://smart-task-manager-2jx1.onrender.com/api/tasks", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -254,7 +254,7 @@ export default function HomeScreen() {
 
       const token = await AsyncStorage.getItem("token");
 
-      await fetch(`http://192.168.1.19:5000/api/tasks/${id}`, {
+      await fetch(`https://smart-task-manager-2jx1.onrender.com/api/tasks/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: token || "",
@@ -275,7 +275,7 @@ export default function HomeScreen() {
     try {
       const token = await AsyncStorage.getItem("token");
 
-      await fetch(`http://192.168.1.19:5000/api/tasks/${id}`, {
+      await fetch(`https://smart-task-manager-2jx1.onrender.com/api/tasks/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
