@@ -102,6 +102,12 @@ PORT=5000
 ```
 ---
 
+## 🌐 Live Backend
+https://smart-task-manager-2jx1.onrender.com
+
+
+---
+
 ## 📱 How to Use
 
 - Register a new account
